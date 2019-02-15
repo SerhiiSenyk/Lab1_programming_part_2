@@ -88,7 +88,8 @@ public class Book {
         System.out.println(numberOfbooks);
     }
     public void printField(){
-        System.out.println(numberOfbooks);
+        //System.out.println(numberOfbooks);
+        printStaticField();
     }
     public void resetValues(int countOfPages,
            String author,
